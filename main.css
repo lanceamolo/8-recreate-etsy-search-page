@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+#items-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  margin: 10px 30px;
+}
+
+.card {
+  display: grid;
+}
+
+img {
+  width: 103%;
+}
+
+.title {
+  width: 100%;
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.shop {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #8e8e8e;
+}
+
+.rating {
+  display: flex;
+}
+
+.span {
+}
+
+.views {
+  display: absolute;
+  margin: 5px 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.priceLine {
+  display: flex;
+  margin: 5px 0;
+}
+
+.price {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.freeShip {
+  margin: 3px;
+  border: 4px solid #d8e8d8;
+  background: #d8e8d8;
+  border-radius: 15px;
+  font-size: 10px;
+}
+
+.paginationBar {
+  margin: 30px 30px 40px;
+}
+
+.footerTop {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.circleBtn {
+  background-color: #efefef;
+  border: none;
+  border-radius: 50%;
+  padding: 12px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.circleBtn:hover {
+  background-color: lightgrey;
+}
+
+.ovalBtn {
+  background-color: #efefef;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.ovalBtn:hover {
+  background-color: lightgrey;
+}
+
+#bottomFooter {
+  display: grid;
+  grid-template-rows: 8% 32% 48% 12%;
+  height: 630px;
+}
+
+.whiteBg {
+  grid-column: 1;
+}
+
+.lightBlueBg {
+  grid-row: 2;
+  background: #dae5f3;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.centerLightBlue {
+  grid-column: 2;
+}
+
+.centerLightBlue p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.subscribe {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.subInput {
+  width: 350px;
+  height: 41px;
+  border: 1px solid grey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 15px;
+  font-size: 16px;
+}
+
+.subInput:focus,
+text:focus,
+select:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.subButton {
+  width: 100px;
+  height: 45px;
+  margin-left: -10px;
+  border: 1px solid grey;
+  border-left: none;
+  background: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 100px;
+  padding-left: 10px;
+}
+
+.blueBg {
+  grid-row: 3;
+  background: #324568;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+.blueBg h1 {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.blueBg ul {
+  list-style-type: none;
+  line-height: 30px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.blue1 {
+  grid-column: 1;
+}
+
+.blue2 {
+  grid-column: 2;
+}
+
+.blue3 {
+  grid-column: 3;
+}
+
+.blue4 {
+  grid-column: 4;
+}
+
+.blue2 ul,
+.blue3 ul,
+.blue4 ul {
+  padding-left: 0;
+}
+
+.botEnd4 {
+  margin-top: 30px;
+}
+
+.downloadEtsy {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  width: 220px;
+}
+
+.bigE {
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  color: #222445;
+  border-radius: 5px;
+  padding: 1px 4px;
+  margin-left: 2px;
+  font-family: "Times New Roman";
+}
+
+.socialIconBar {
+  display: flex;
+  gap: 25px;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.facebook {
+  color: white;
+}
+
+.twitter {
+  color: white;
+}
+
+.google {
+  color: white;
+}
+
+.linkedin {
+  color: white;
+}
+
+.youtube {
+  color: white;
+}
+
+.darkBlueBg {
+  grid-row: 4;
+  background: #222445;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dbLeft {
+  grid-column: 1;
+}
+
+.merica {
+  display: flex;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px;
+  width: 360px;
+  margin-top: 20px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+
+.mericaFlag {
+  width: 6%;
+}
+
+.merica p {
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.dbRightSide {
+  grid-column: 2;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.dbRightSide button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px;
+  text-decoration: underline;
+}
+
+.moveRightStuff {
+  padding-top: 25px;
+  padding-left: 280px;
+}
