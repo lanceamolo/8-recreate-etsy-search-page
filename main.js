@@ -5,7 +5,7 @@ console.log(items)
 const cards = items.results
   .map(function (i) {
     return `<div class="card">
-              <img src="${i.Images[0].url_170x135}"/>
+              <img class="cardImg" src="${i.Images[0].url_fullxfull}"/>
               <p class="title">${i.title}</p>
               <p class="shop">Ad by ${i.Shop.shop_name}</p>
               <div class="rating">

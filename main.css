@@ -4,6 +4,9 @@
   letter-spacing: 1px;
 }
 
+/* Grid area START */
+/* Have image, title, shops, rating, views and price in a Card div */
+
 #items-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -15,8 +18,9 @@
   display: grid;
 }
 
-img {
-  width: 103%;
+.cardImg {
+  width: 255px;
+  height: 225px;
 }
 
 .title {
@@ -36,9 +40,6 @@ img {
 
 .rating {
   display: flex;
-}
-
-.span {
 }
 
 .views {
@@ -67,6 +68,12 @@ img {
   font-size: 10px;
 }
 
+/* Grid area END */
+
+/* Footer area START */
+
+/* pagination Start */
+
 .paginationBar {
   margin: 30px 30px 40px;
 }
@@ -86,6 +93,7 @@ img {
   display: inline-block;
   font-size: 14px;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .circleBtn:hover {
@@ -102,11 +110,14 @@ img {
   display: inline-block;
   font-size: 14px;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .ovalBtn:hover {
   background-color: lightgrey;
 }
+
+/* pagination end */
 
 #bottomFooter {
   display: grid;
@@ -170,6 +181,7 @@ select:focus {
   font-weight: bold;
   padding-right: 100px;
   padding-left: 10px;
+  cursor: pointer;
 }
 
 .blueBg {
@@ -192,6 +204,11 @@ select:focus {
   padding-left: 20px;
   font-size: 12px;
 }
+
+/* .blueBg li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+} */
 
 .blue1 {
   grid-column: 1;
@@ -325,6 +342,7 @@ select:focus {
   font-size: 12px;
   padding: 8px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .moveRightStuff {
