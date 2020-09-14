@@ -1,4 +1,5 @@
-//
+//nav bar drop down functions
+
 document.getElementById("accessoriesShow").onmouseover = function () {
   document.getElementById("dropC2Hide").style.visibility = "visible"
 }
@@ -62,7 +63,6 @@ document.getElementById("bodyj").onmouseout = function () {
   document.getElementById("dropC8").style.visibility = "hidden"
 }
 
-
 //map and join images, titles, shops, views and prices
 
 const cards = items.results
@@ -100,6 +100,3 @@ subInput.addEventListener("blur", function () {
   subButton.style.backgroundColor = "white"
   subButton.style.color = "black"
 })
-
-
-
